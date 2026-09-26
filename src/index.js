@@ -1,6 +1,7 @@
 //require('dotenv').config({path:'./env'})       Good to include the dotenv in the stating so that it allows to access all the variables and also its not a good approach no doubt there will be no error but writing this in the starting is not a proper syntax
 import dotenv from "dotenv"
 import connectDB from "./db/index.js";
+import {app} from "./app.js"
 // import mongoose from "mongoose";
 // import { DB_NAME } from "./constants";
 dotenv.config({
